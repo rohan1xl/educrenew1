@@ -25,6 +25,8 @@
 
  function App() {
    return (
+   )
+ }
 @@ .. @@
            {/* Landing Page */}
            <Route path="/" element={
@@ -43,5 +45,6 @@
              <Route path="student-dashboard" element={<StudentDashboard />} />
 +            <Route path="verify-certificate" element={<VerifyCertificate />} />
            </Route>
+           }
          </Routes>
        </AnimatePresence>
